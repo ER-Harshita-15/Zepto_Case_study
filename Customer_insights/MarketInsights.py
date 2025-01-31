@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-file_path = '/D:/ZeptoAnalysis/Customer_insights/UPDATED_DATASET.CSV'
+file_path = 'updated_dataset.csv'
 data = pd.read_csv(file_path)
 
 # Convert necessary columns to appropriate data types
