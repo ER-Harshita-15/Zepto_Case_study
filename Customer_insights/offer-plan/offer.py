@@ -1,6 +1,6 @@
 import pandas as pd
-from Recommender import recommend_products_for_customer
-from DemoGraphs import recommend_products_by_age, recommend_products_by_gender, recommend_products_by_city
+from Customer_insights.recommendation import recommend_products_for_customer
+from Customer_insights.recommendation.DemoGraphs import recommend_products_by_age, recommend_products_by_gender, recommend_products_by_city
 
 # Load the dataset
 df = pd.read_csv('updated_dataset.csv')
