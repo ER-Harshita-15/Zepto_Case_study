@@ -1,9 +1,9 @@
 import pandas as pd
-from Recommender import recommend_products_for_customer
+from recommendation.personalized_recommendation.recommender import recommend_products_for_customer
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('updated_dataset.csv')
+df = pd.read_csv('..\\Data\\updated_dataset.csv')
 
 # Function to design targeted promotions and discounts
 def design_promotions_and_discounts(customer_id):
@@ -25,7 +25,7 @@ def design_promotions_and_discounts(customer_id):
     for product, category in zip(recommended_products, product_categories):
         if gender == 'Female' and category == 'Groceries':
             promotions[product] = '15% off'
-        elif age_group == '18-25' and category == 'Electronics':
+        elif age_group == '18-25' and category == 'Snacks':
             promotions[product] = '20% off'
         elif city == customer_city:
             promotions[product] = '10% off'
