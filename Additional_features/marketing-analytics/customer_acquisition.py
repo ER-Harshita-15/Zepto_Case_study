@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the dataset
-file_path = 'ZEPTO_ANALYTICS_DATASET.CSV'
+file_path = '..\\Data\\ZEPTO_ANALYTICS_DATASET.CSV'
 data = pd.read_csv(file_path)
 
 # Streamlit Title

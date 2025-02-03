@@ -70,7 +70,7 @@ class CustomerInsights:
         plt.close()
 
 if __name__ == "__main__":
-    insights = CustomerInsights('..\\..\\..\\Data\\updated_dataset.csv')
+    insights = CustomerInsights('..\\Data\\updated_dataset.csv')
     insights.segment_customers()
     insights.print_segments()
     insights.plot_segments()

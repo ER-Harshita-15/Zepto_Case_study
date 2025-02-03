@@ -60,7 +60,7 @@ class RecommenderSystem:
 # Streamlit app
 st.title("Customer Product Recommender")
 
-recommender = RecommenderSystem('..\\..\\..\\Data\\updated_dataset.csv')
+recommender = RecommenderSystem('..\\Data\\updated_dataset.csv')
 
 customer_id = st.text_input("Enter Customer ID:", "ZP_CUST4000")
 
