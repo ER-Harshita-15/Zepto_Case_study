@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 # Fixed dataset path
-file_path = 'ZEPTO_ANALYTICS_DATASET.CSV'
+file_path = '..\\Data\\ZEPTO_ANALYTICS_DATASET.CSV'
 
 # Function to perform marketing analytics
 def marketing_analytics(file_path, marketing_spend):

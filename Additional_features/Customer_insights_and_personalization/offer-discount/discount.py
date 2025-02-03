@@ -14,7 +14,7 @@ import pandas as pd
 from recommendation.personalized_recommendation.recommender import RecommenderSystem
 
 # Load the dataset
-df = pd.read_csv('..\\..\\Data\\updated_dataset.csv')
+df = pd.read_csv('.\\Data\\updated_dataset.csv')
 
 # Initialize the recommender system (ensure this path points to your dataset correctly)
 recommender = RecommenderSystem('..\\..\\Data\\updated_dataset.csv')

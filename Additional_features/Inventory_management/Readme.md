@@ -56,7 +56,7 @@ This Jupyter notebook performs historical seasonal analysis on the sales data.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12.6
 - pandas
 - numpy
 - seaborn
